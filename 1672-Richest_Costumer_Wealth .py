@@ -9,10 +9,9 @@ A customer's wealth is the amount of money they have in all their bank accounts.
 # Runtime: 0ms
 # Memory 17.8MB
 
-accounts0 = [[1, 2, 3], [3, 2, 1]]  # Test case 01
-accounts1 = [[1, 5], [7, 3], [3, 5]]  # Test case 02
-accounts2 = [[2, 8, 7], [7, 1, 3], [1, 9, 5]]  # Test case 03
-
+testcase01 = [[1, 2, 3], [3, 2, 1]] 
+testcase02 = [[1, 5], [7, 3], [3, 5]]
+testcase03 = [[2, 8, 7], [7, 1, 3], [1, 9, 5]]  
 
 def maximumWealth(accounts: list[list[int]]) -> int:
     # In the worst case (everything is 0) we return the first item
@@ -23,11 +22,7 @@ def maximumWealth(accounts: list[list[int]]) -> int:
 
 
 
-print(maximumWealth(accounts0))  # Output: 6
-print(maximumWealth(accounts1))  # Output: 10
-print(maximumWealth(accounts2))  # Output: 17
+print(maximumWealth(testcase01))  # Output: 6
+print(maximumWealth(testcase02))  # Output: 10
+print(maximumWealth(testcase03))  # Output: 17
 
-
-"""
-
-"""

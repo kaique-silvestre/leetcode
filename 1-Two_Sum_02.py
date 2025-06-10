@@ -5,7 +5,7 @@ You may assume that each input would have exactly one solution, and you may not 
 
 You can return the answer in any order.
 """
-# After studying the exercise i have learned that that's the right answer to it. Grat Logic, Beautiful.
+# After studying the exercise i have learned that that's the right answer to it. Great Logic, Beautiful.
 
 def TwoSum(target, array):
     # dict{NumbertoSum: IndexOfTheNumber}
