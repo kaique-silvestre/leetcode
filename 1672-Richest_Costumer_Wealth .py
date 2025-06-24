@@ -7,7 +7,7 @@ A customer's wealth is the amount of money they have in all their bank accounts.
 """
 
 # Runtime: 0ms
-# Memory 17.8MB
+# Memory: 17.8MB
 
 testcase01 = [[1, 2, 3], [3, 2, 1]] 
 testcase02 = [[1, 5], [7, 3], [3, 5]]
